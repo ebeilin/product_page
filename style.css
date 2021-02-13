@@ -1,0 +1,176 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo img {
+    width: 50px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.product img {
+    width: 400px;
+    height: 400px;
+    
+}
+
+.viewcart img  {
+     width: 90px;
+    height: 35px;
+    
+}
+
+
+.similar img {
+    width: 175px;
+    height: 175px;
+    
+}
+
+
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+
+.header {
+  background: deeppink;
+  height: 50px;
+  overflow: hidden;
+}
+
+.header a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.header a:hover {
+  background-color: pink;
+  color: black;
+}
+
+.header .search-container {
+  float: right;
+}
+
+.header input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  font-family: 'Jura', sans-serif;
+}
+
+.header .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Jura', sans-serif;
+}
+
+.header .search-container button:hover {
+  background: pink;
+}
+
+
+
+
+.footer {
+    height: 180px;
+}
+
+
+.main {
+  text-align: left;
+  height: 350px;
+  justify-content: center;
+  display: flex;
+ 
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+   margin: 40px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 30px;
+}
+
+.aside-2 {
+  background: pink;
+
+}
+
+.radioLeft {
+    
+    text-align:left;
+    margin-left: 670px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: 'Jura', sans-serif;
+    padding: 10px;
+    }
+
+p {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+.fadein img{
+    opacity:0.5;
+    transition: 1s ease;
+}
+
+.fadein img:hover{
+    opacity:1;
+    transition: 1s ease;
+}
+
+
+body {
+    margin: auto;
+    font-family: 'Jura', sans-serif;
+}
